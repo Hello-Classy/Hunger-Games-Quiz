@@ -17,18 +17,18 @@ $(".submit").click(function() {
   
   
   if ((n1 >= n2)&&(n1 >= n3)&&(n1 >= n4)) {
-    $( "span" ).html("You are AWESOME");
+    $( "span" ).html("You almost make it, but you are slaughtered in the last round by a fellow tribute.");
   }
   if ((n2 > n1)&&(n2 >= n3)&&(n2 >= n4)) {
     $( "span" ).html("You were the solo victor of the games. Congrats! You make your way back to your district with your head held high.") ;
   }
     
   if ((n3 > n1)&&(n3 > n2)&&(n3 >= n4)) {
-    $( "span" ).html("You are CRAP");
+    $( "span" ).html("You die of trackerjacker stings");
   }
     
   if ((n4 > n1)&&(n4 > n2)&&(n4 > n3)) {
-    $( "span" ).html("You are DELIGHTFUL");
+    $( "span" ).html("You get knocked out early on. Sorry, but this game also takes wit. You can't just go around hacking everyone to pieces.");
   }
 		
 });
