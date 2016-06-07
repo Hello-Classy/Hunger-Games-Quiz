@@ -14,6 +14,8 @@ $(".submit").click(function() {
  
   var n4 = $(".d.selected").length;  
   
+  if (h3 == box a) {
+    alert ("You pressed OK!");
   
   
   if ((n1 >= n2)&&(n1 >= n3)&&(n1 >= n4)) {
