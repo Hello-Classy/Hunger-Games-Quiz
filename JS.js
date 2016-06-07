@@ -20,7 +20,7 @@ $(".submit").click(function() {
     $( "span" ).html("You are AWESOME");
   }
   if ((n2 > n1)&&(n2 >= n3)&&(n2 >= n4)) {
-    $( "span" ).html("You are BRILLIANT") ;
+    $( "span" ).html("You were the solo victor of the games. Congrats! You make your way back to your district with your head held high.") ;
   }
     
   if ((n3 > n1)&&(n3 > n2)&&(n3 >= n4)) {
