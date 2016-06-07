@@ -1,5 +1,5 @@
 
-$( ".career" ).click(function() {
+$( ".box" ).click(function() {
   $( this ).addClass( "presidentsnow" ).siblings(".presidentsnow").removeClass("presidentsnow");
   
 });
