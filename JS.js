@@ -1,18 +1,18 @@
 
-$( ".box" ).click(function() {
-  $( this ).addClass( "selected" ).siblings(".selected").removeClass("selected");
+$( ".career" ).click(function() {
+  $( this ).addClass( "presidentsnow" ).siblings(".presidentsnow").removeClass("presidentsnow");
   
 });
 
 $(".submit").click(function() {
   
-  var n1 = $(".a.selected").length;
+  var n1 = $(".a.presidentsnow").length;
   
-  var n2 = $(".b.selected").length;
+  var n2 = $(".b.presidentsnow").length;
  
-  var n3 = $(".c.selected").length;
+  var n3 = $(".c.presidentsnow").length;
  
-  var n4 = $(".d.selected").length;  
+  var n4 = $(".d.presidentsnow").length;  
   
   
   
