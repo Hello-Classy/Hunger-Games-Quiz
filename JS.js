@@ -24,11 +24,11 @@ $(".submit").click(function() {
   }
     
   if ((n3 > n1)&&(n3 > n2)&&(n3 >= n4)) {
-    $( "span" ).html("You are pretty good at this, but the thought of killing others terrifies you. Sorry, but there are sacrifices to be made, and if you don't kill, they will.");
+    $( "span" ).html("You are pretty good at this, but the thought of killing others terrifies you. Sorry, but there are sacrifices to be made, and if you don't kill, they will. You are shot with an arrow halfway through the games.");
   }
     
   if ((n4 > n1)&&(n4 > n2)&&(n4 > n3)) {
-    $( "span" ).html("You get knocked out early on. Sorry, but this game also takes wit. You can't just go around hacking everyone to pieces. Also, people are decieving. If you let that girl up, she'll stab you right away.");
+    $( "span" ).html("You get knocked out early on. Sorry, but this game also takes wit. You can't just go around hacking everyone to pieces. Also, people are decieving. If you let that girl up, she'll stab you right away. You're the third one dead.");
   }
     
 });
